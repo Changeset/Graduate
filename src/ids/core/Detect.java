@@ -99,6 +99,12 @@ public class Detect {
                         }
                     }
                 }
+
+            } else if (edgeMatcher.find()) {
+                /*
+                * 存储父节点和子节点的关系
+                 */
+                String key = edgeMatcher.group(1);
             }
         }
     }
