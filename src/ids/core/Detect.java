@@ -98,9 +98,6 @@ public class Detect {
                             hashToName.set(key, key_value[1]);
                         }
                     }
-
-
-
                 }
 
             } else if (edgeMatcher.find()) {
