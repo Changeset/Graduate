@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="babd30b6-4a71-4059-b2db-29dc552ceaf8" name="Default" comment="" />
+    <list default="true" id="babd30b6-4a71-4059-b2db-29dc552ceaf8" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -11,7 +13,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5055231">
+    <splitter split-orientation="horizontal" split-proportion="0.2283105">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="LogManager.java" pinned="false" current-in-tab="false">
@@ -26,7 +28,7 @@
           <file leaf-file-name="AbstractStorage.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/ids/core/AbstractStorage.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="4830">
+                <state relative-caret-position="4620">
                   <caret line="234" column="17" selection-start-line="234" selection-start-column="17" selection-end-line="234" selection-end-column="17" />
                   <folding>
                     <element signature="imports" expanded="true" />
@@ -38,7 +40,7 @@
           <file leaf-file-name="Scaffold.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/ids/storage/Scaffold.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1386">
+                <state relative-caret-position="1239">
                   <caret line="69" column="22" selection-start-line="69" selection-start-column="22" selection-end-line="69" selection-end-column="22" />
                   <folding>
                     <element signature="imports" expanded="true" />
@@ -50,7 +52,7 @@
           <file leaf-file-name="Edge.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/ids/core/Edge.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="2457">
+                <state relative-caret-position="2436">
                   <caret line="122" column="39" selection-start-line="122" selection-start-column="39" selection-end-line="122" selection-end-column="39" />
                   <folding>
                     <element signature="imports" expanded="true" />
@@ -62,7 +64,7 @@
           <file leaf-file-name="Vertex.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/ids/core/Vertex.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1743">
+                <state relative-caret-position="1659">
                   <caret line="83" column="6" selection-start-line="83" selection-start-column="6" selection-end-line="83" selection-end-column="6" />
                   <folding>
                     <element signature="imports" expanded="true" />
@@ -78,7 +80,7 @@
           <file leaf-file-name="Dot2Redis.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/ids/Dot2Redis.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1827">
+                <state relative-caret-position="1617">
                   <caret line="87" column="19" selection-start-line="87" selection-start-column="19" selection-end-line="87" selection-end-column="19" />
                   <folding>
                     <element signature="imports" expanded="true" />
@@ -90,7 +92,7 @@
           <file leaf-file-name="Settings.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/ids/core/Settings.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="462">
+                <state relative-caret-position="399">
                   <caret line="22" column="65" selection-start-line="22" selection-start-column="65" selection-end-line="22" selection-end-column="65" />
                   <folding>
                     <element signature="imports" expanded="true" />
@@ -102,7 +104,7 @@
           <file leaf-file-name="ScaffoldFactory.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/ids/storage/ScaffoldFactory.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="315">
+                <state relative-caret-position="294">
                   <caret line="15" column="41" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
                   <folding>
                     <element signature="imports" expanded="true" />
@@ -115,7 +117,7 @@
             <entry file="file://$PROJECT_DIR$/src/ids/storage/Redis.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="294">
-                  <caret line="76" column="19" lean-forward="true" selection-start-line="76" selection-start-column="19" selection-end-line="76" selection-end-column="19" />
+                  <caret line="76" column="19" selection-start-line="76" selection-start-column="19" selection-end-line="76" selection-end-column="19" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -139,8 +141,8 @@
           <file leaf-file-name="Detect.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/ids/core/Detect.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="468">
-                  <caret line="114" selection-start-line="114" selection-end-line="114" />
+                <state relative-caret-position="293">
+                  <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -160,7 +162,7 @@
           <file leaf-file-name="Graph.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/ids/core/Graph.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="2436">
+                <state relative-caret-position="1974">
                   <caret line="116" column="46" selection-start-line="116" selection-start-column="46" selection-end-line="116" selection-end-column="46" />
                   <folding>
                     <element signature="imports" expanded="true" />
@@ -184,11 +186,6 @@
                   </folding>
                 </state>
               </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="Redis.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/../../SPADE-master/src/spade/query/scaffold/Redis.java">
-              <provider selected="true" editor-type-id="text-editor" />
             </entry>
           </file>
           <file leaf-file-name="PostgreSQL.java" pinned="false" current-in-tab="false">
@@ -288,7 +285,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -341,8 +338,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -410,6 +407,7 @@
       <workItem from="1548292109521" duration="1215000" />
       <workItem from="1548313489873" duration="3636000" />
       <workItem from="1548317693685" duration="709000" />
+      <workItem from="1548318451355" duration="432000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1548315484274</created>
@@ -467,11 +465,25 @@
       <option name="project" value="LOCAL" />
       <updated>1548318355447</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="update">
+      <created>1548318605079</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1548318605079</updated>
+    </task>
+    <task id="LOCAL-00010" summary="update">
+      <created>1548318743838</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1548318743838</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41882000" />
+    <option name="totallyTimeSpent" value="42314000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -490,15 +502,15 @@
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info active="true" anchor="bottom" id="Event Log" order="7" sideWeight="0.50053304" side_tool="true" visible="true" weight="0.3293348" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5010661" side_tool="true" visible="true" weight="0.3293348" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49946696" visible="true" weight="0.3293348" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="7" sideWeight="0.4989339" visible="true" weight="0.3293348" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32897604" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18123667" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18283582" />
       <window_info anchor="bottom" id="Statistic" order="8" weight="0.32897604" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -553,6 +565,16 @@
     <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/ids/core/Detect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2226">
+          <caret line="114" selection-start-line="114" selection-end-line="114" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../../SPADE-master/src/spade/core/AbstractVertex.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2310">
@@ -818,7 +840,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ids/storage/ScaffoldFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
+        <state relative-caret-position="294">
           <caret line="15" column="41" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -828,7 +850,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ids/core/Settings.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
+        <state relative-caret-position="399">
           <caret line="22" column="65" selection-start-line="22" selection-start-column="65" selection-end-line="22" selection-end-column="65" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -859,7 +881,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ids/core/Edge.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2457">
+        <state relative-caret-position="2436">
           <caret line="122" column="39" selection-start-line="122" selection-start-column="39" selection-end-line="122" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -879,7 +901,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ids/core/Vertex.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1743">
+        <state relative-caret-position="1659">
           <caret line="83" column="6" selection-start-line="83" selection-start-column="6" selection-end-line="83" selection-end-column="6" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -922,7 +944,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ids/core/AbstractStorage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4830">
+        <state relative-caret-position="4620">
           <caret line="234" column="17" selection-start-line="234" selection-start-column="17" selection-end-line="234" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -939,7 +961,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ids/Dot2Redis.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1827">
+        <state relative-caret-position="1617">
           <caret line="87" column="19" selection-start-line="87" selection-start-column="19" selection-end-line="87" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -949,7 +971,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ids/core/Graph.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2436">
+        <state relative-caret-position="1974">
           <caret line="116" column="46" selection-start-line="116" selection-start-column="46" selection-end-line="116" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -959,7 +981,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ids/storage/Scaffold.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1386">
+        <state relative-caret-position="1239">
           <caret line="69" column="22" selection-start-line="69" selection-start-column="22" selection-end-line="69" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -974,13 +996,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../SPADE-master/src/spade/query/scaffold/Redis.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ids/storage/Redis.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="294">
-          <caret line="76" column="19" lean-forward="true" selection-start-line="76" selection-start-column="19" selection-end-line="76" selection-end-column="19" />
+          <caret line="76" column="19" selection-start-line="76" selection-start-column="19" selection-end-line="76" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -989,8 +1008,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ids/core/Detect.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="114" selection-start-line="114" selection-end-line="114" />
+        <state relative-caret-position="293">
+          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
