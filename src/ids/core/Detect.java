@@ -52,7 +52,7 @@ public class Detect {
      */
     private static final String LOG_START_TIME_PATTERN = "MM.dd.yyyy-H.mm.ss";
 
-    private static Jedis jedis;
+    private static Jedis hashToName;
 
     public static Graph importGraph(String path) {
         if (path == null) return null;
@@ -85,7 +85,6 @@ public class Detect {
                 /*
                 * 存储hash值与节点的对应关系
                  */
-                jedis.select(1);
                 String key = nodeMatcher.group(1);
                 String label = nodeMatcher.group(2);
                 String shape = nodeMatcher.group(3);
@@ -96,7 +95,7 @@ public class Detect {
                     if (key_value.length == 2) {
                         vertex.addAnnotation(key_value[0], key_value[1]);
                         if (key_value[0].equals("name")) {
-
+                            hashToName.set(key, key_value[1]);
                         }
                     }
                 }
@@ -104,8 +103,8 @@ public class Detect {
         }
     }
     public static void main(String[] args) {
-        jedis = new Jedis("127.0.0.1", 6379);
-        jedis.auth("root");
+        hashToName = new Jedis("127.0.0.1", 6379);
+        hashToName.auth("root");
         Graph graph = Detect.importGraph(args[1]);
 
     }
