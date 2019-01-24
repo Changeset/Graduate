@@ -1,0 +1,1000 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="babd30b6-4a71-4059-b2db-29dc552ceaf8" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <splitter split-orientation="horizontal" split-proportion="0.5055231">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="LogManager.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/ids/utility/LogManager.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state>
+                  <caret selection-end-line="1" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="AbstractStorage.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/ids/core/AbstractStorage.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="4620">
+                  <caret line="234" column="17" selection-start-line="234" selection-start-column="17" selection-end-line="234" selection-end-column="17" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Scaffold.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/ids/storage/Scaffold.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="1078">
+                  <caret line="69" column="22" selection-start-line="69" selection-start-column="22" selection-end-line="69" selection-end-column="22" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Edge.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/ids/core/Edge.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="2436">
+                  <caret line="122" column="39" selection-start-line="122" selection-start-column="39" selection-end-line="122" selection-end-column="39" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Vertex.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/ids/core/Vertex.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="1659">
+                  <caret line="83" column="6" selection-start-line="83" selection-start-column="6" selection-end-line="83" selection-end-column="6" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                    <element signature="e#2536#2537#0" expanded="true" />
+                    <element signature="e#2594#2595#0" expanded="true" />
+                    <element signature="e#2761#2762#0" expanded="true" />
+                    <element signature="e#2816#2817#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Dot2Redis.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/ids/Dot2Redis.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="770">
+                  <caret line="87" column="19" selection-start-line="87" selection-start-column="19" selection-end-line="87" selection-end-column="19" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Settings.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/ids/core/Settings.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="399">
+                  <caret line="22" column="65" selection-start-line="22" selection-start-column="65" selection-end-line="22" selection-end-column="65" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="ScaffoldFactory.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/ids/storage/ScaffoldFactory.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="294">
+                  <caret line="15" column="41" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Redis.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/ids/storage/Redis.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="315">
+                  <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                    <element signature="e#2164#2165#0" expanded="true" />
+                    <element signature="e#2190#2191#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="Kernel.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/../../SPADE-master/src/spade/core/Kernel.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="4977">
+                  <caret line="302" column="18" selection-start-line="302" selection-start-column="8" selection-end-line="302" selection-end-column="18" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Detect.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/ids/core/Detect.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="188">
+                  <caret line="98" selection-start-line="98" selection-end-line="98" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="AbstractStorage.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/../../SPADE-master/src/spade/core/AbstractStorage.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="2100">
+                  <caret line="137" column="49" selection-start-line="137" selection-start-column="39" selection-end-line="137" selection-end-column="49" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Graph.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/ids/core/Graph.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="195">
+                  <caret line="116" column="46" selection-start-line="116" selection-start-column="46" selection-end-line="116" selection-end-column="46" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Graph.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/../../SPADE-master/src/spade/core/Graph.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="4116">
+                  <caret line="264" column="37" selection-start-line="264" selection-start-column="26" selection-end-line="264" selection-end-column="37" />
+                  <folding>
+                    <element signature="e#32767#32768#0" expanded="true" />
+                    <element signature="e#32813#32814#0" expanded="true" />
+                    <element signature="e#32929#32930#0" expanded="true" />
+                    <element signature="e#32969#32970#0" expanded="true" />
+                    <element signature="e#33115#33116#0" expanded="true" />
+                    <element signature="e#33159#33160#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Redis.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/../../SPADE-master/src/spade/query/scaffold/Redis.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-1792" />
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="LevelDB.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/../../SPADE-master/src/spade/query/scaffold/LevelDB.java">
+              <provider selected="true" editor-type-id="text-editor" />
+            </entry>
+          </file>
+          <file leaf-file-name="PostgreSQL.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/../../SPADE-master/src/spade/query/scaffold/PostgreSQL.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-3934">
+                  <caret line="141" column="28" selection-start-line="141" selection-start-column="16" selection-end-line="141" selection-end-column="28" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="BerkeleyDB.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/../../SPADE-master/src/spade/query/scaffold/BerkeleyDB.java">
+              <provider selected="true" editor-type-id="text-editor" />
+            </entry>
+          </file>
+          <file leaf-file-name="AbstractVertex.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/../../SPADE-master/src/spade/core/AbstractVertex.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="2310">
+                  <caret line="141" column="4" selection-start-line="141" selection-start-column="4" selection-end-line="168" selection-end-column="5" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>spadeProperties</find>
+      <find>AbstractVertex</find>
+      <find>vertexSet()</find>
+      <find>V</find>
+      <find>AbstractEdge</find>
+      <find>initialize</find>
+      <find>equals</find>
+      <find>Graph other</find>
+      <find>setroot</find>
+      <find>main\(</find>
+      <find>process</find>
+      <find>vertexIdentifiers</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>idsProerties</replace>
+      <replace>Vertex</replace>
+      <replace>Edge</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/ids/dot2redis.java" />
+        <option value="$PROJECT_DIR$/src/ids/Dot2redis.java" />
+        <option value="$PROJECT_DIR$/src/ids/Dot2Redis.java" />
+        <option value="$PROJECT_DIR$/src/ids/core/Settings.java" />
+        <option value="$PROJECT_DIR$/src/ids/utility/LogManager.java" />
+        <option value="$PROJECT_DIR$/src/ids/storage/ScaffoldFactory.java" />
+        <option value="$PROJECT_DIR$/src/ids/core/Edge.java" />
+        <option value="$PROJECT_DIR$/src/ids/core/Vertex.java" />
+        <option value="$PROJECT_DIR$/../../SPADE-master/src/spade/core/AbstractStorage.java" />
+        <option value="$PROJECT_DIR$/src/ids/core/AbstractStorage.java" />
+        <option value="$PROJECT_DIR$/src/ids/storage/Scaffold.java" />
+        <option value="$PROJECT_DIR$/src/ids/core/Graph.java" />
+        <option value="$PROJECT_DIR$/src/ids/storage/Redis.java" />
+        <option value="$PROJECT_DIR$/src/ids/core/Detect.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="558" />
+    <option name="y" value="487" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Graduate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Graduate" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Graduate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Graduate" type="462c0819:PsiDirectoryNode" />
+              <item name="cfg" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Graduate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Graduate" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Graduate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Graduate" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ids" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Graduate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Graduate" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ids" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Graduate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Graduate" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ids" type="462c0819:PsiDirectoryNode" />
+              <item name="storage" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Graduate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Graduate" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ids" type="462c0819:PsiDirectoryNode" />
+              <item name="utility" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Graduate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="split ver&#9;ACTION&#9;SplitVertically" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.Main" />
+      <module name="Graduate" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="babd30b6-4a71-4059-b2db-29dc552ceaf8" name="Default" comment="" />
+      <created>1547693097971</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1547693097971</updated>
+      <workItem from="1547693101382" duration="8515000" />
+      <workItem from="1547773987375" duration="14665000" />
+      <workItem from="1547806020425" duration="598000" />
+      <workItem from="1548035874255" duration="3671000" />
+      <workItem from="1548053653775" duration="975000" />
+      <workItem from="1548225187077" duration="7898000" />
+      <workItem from="1548292109521" duration="1215000" />
+      <workItem from="1548313489873" duration="2126000" />
+    </task>
+    <task id="LOCAL-00001" summary="update">
+      <created>1548315484274</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1548315484274</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="39663000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32897604" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="7" side_tool="true" visible="true" weight="0.3293348" />
+      <window_info anchor="right" id="Maven Projects" order="3" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32897604" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="2" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17963752" />
+      <window_info anchor="bottom" id="Statistic" order="8" weight="0.32897604" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/ids/utility/LogManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="11" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ids/core/AbstractStorage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6930">
+          <caret line="344" column="5" selection-start-line="344" selection-start-column="5" selection-end-line="344" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ids/storage/Scaffold.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1239">
+          <caret line="69" column="22" selection-start-line="69" selection-start-column="22" selection-end-line="69" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ids/core/Edge.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2436">
+          <caret line="122" column="39" selection-start-line="122" selection-start-column="39" selection-end-line="122" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ids/core/Vertex.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1659">
+          <caret line="83" column="6" lean-forward="true" selection-start-line="83" selection-start-column="6" selection-end-line="83" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2536#2537#0" expanded="true" />
+            <element signature="e#2594#2595#0" expanded="true" />
+            <element signature="e#2761#2762#0" expanded="true" />
+            <element signature="e#2816#2817#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ids/core/Settings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="22" column="65" selection-start-line="22" selection-start-column="65" selection-end-line="22" selection-end-column="65" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ids/core/Detect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="861">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ids/storage/ScaffoldFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="15" column="41" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ids/storage/Redis.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../SPADE-master/src/spade/core/Kernel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="77" column="137" selection-start-line="77" selection-start-column="71" selection-end-line="77" selection-end-column="137" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../SPADE-master/src/spade/query/scaffold/ScaffoldFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="25" column="4" selection-start-line="25" selection-start-column="4" selection-end-line="45" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../SPADE-master/src/spade/core/AbstractStorage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7539">
+          <caret line="402" column="5" lean-forward="true" selection-start-line="378" selection-start-column="4" selection-end-line="402" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../SPADE-master/src/spade/query/scaffold/Scaffold.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2478">
+          <caret line="145" column="5" selection-start-line="35" selection-start-column="4" selection-end-line="145" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ids/Dot2Redis.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1911">
+          <caret line="91" column="15" selection-start-line="91" selection-start-column="15" selection-end-line="91" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../SPADE-master/src/spade/core/Edge.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="33" selection-start-line="33" selection-end-line="42" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../SPADE-master/src/spade/core/AbstractEdge.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3444">
+          <caret line="213" column="5" selection-start-line="213" selection-start-column="5" selection-end-line="213" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../SPADE-master/src/spade/core/AbstractVertex.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2310">
+          <caret line="141" column="4" selection-start-line="141" selection-start-column="4" selection-end-line="168" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../SPADE-master/src/spade/core/Graph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8715">
+          <caret line="489" column="38" lean-forward="true" selection-start-line="489" selection-start-column="38" selection-end-line="489" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ids/core/Vertex.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2352">
+          <caret line="114" column="20" selection-start-line="114" selection-start-column="20" selection-end-line="114" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2536#2537#0" expanded="true" />
+            <element signature="e#2594#2595#0" expanded="true" />
+            <element signature="e#2761#2762#0" expanded="true" />
+            <element signature="e#2816#2817#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ids/core/Edge.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3129">
+          <caret line="158" column="20" selection-start-line="158" selection-start-column="20" selection-end-line="158" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ids/core/Graph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="777">
+          <caret line="45" column="29" lean-forward="true" selection-start-line="45" selection-start-column="29" selection-end-line="45" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../SPADE-master/src/spade/core/Graph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3654">
+          <caret line="242" column="7" selection-start-line="242" selection-start-column="7" selection-end-line="242" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ids/Dot2Redis.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1995">
+          <caret line="105" selection-start-line="105" selection-end-line="105" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../SPADE-master/src/spade/core/AbstractEdge.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3213">
+          <caret line="202" selection-start-line="202" selection-end-line="213" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../SPADE-master/src/spade/core/AbstractVertex.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Main.java" />
+    <entry file="jar://$PROJECT_DIR$/../../lucene-5.5.5/analysis/common/lucene-analyzers-common-5.5.5.jar!/org/apache/lucene/analysis/core/KeywordAnalyzer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../lucene-5.5.5/queryparser/lucene-queryparser-5.5.5.jar!/org/apache/lucene/queryparser/classic/QueryParser.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="37" column="11" selection-start-line="37" selection-start-column="11" selection-end-line="37" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../SPADE-master/src/spade/query/scaffold/ScaffoldFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="25" column="4" selection-start-line="25" selection-start-column="4" selection-end-line="45" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ids/storage/ScaffoldFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="15" column="41" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ids/core/Settings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="22" column="65" selection-start-line="22" selection-start-column="65" selection-end-line="22" selection-end-column="65" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../SPADE-master/src/spade/core/AbstractEdge.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3444">
+          <caret line="213" column="5" selection-start-line="213" selection-start-column="5" selection-end-line="213" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../SPADE-master/src/spade/query/scaffold/Scaffold.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2478">
+          <caret line="145" column="5" selection-start-line="35" selection-start-column="4" selection-end-line="145" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../SPADE-master/src/spade/core/Edge.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="33" selection-start-line="33" selection-end-line="42" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ids/core/Edge.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2436">
+          <caret line="122" column="39" selection-start-line="122" selection-start-column="39" selection-end-line="122" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../SPADE-master/src/spade/core/AbstractVertex.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2310">
+          <caret line="141" column="4" selection-start-line="141" selection-start-column="4" selection-end-line="168" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ids/core/Vertex.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1659">
+          <caret line="83" column="6" selection-start-line="83" selection-start-column="6" selection-end-line="83" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2536#2537#0" expanded="true" />
+            <element signature="e#2594#2595#0" expanded="true" />
+            <element signature="e#2761#2762#0" expanded="true" />
+            <element signature="e#2816#2817#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../SPADE-master/src/spade/core/AbstractStorage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2100">
+          <caret line="137" column="49" selection-start-line="137" selection-start-column="39" selection-end-line="137" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../SPADE-master/src/spade/core/Graph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4116">
+          <caret line="264" column="37" selection-start-line="264" selection-start-column="26" selection-end-line="264" selection-end-column="37" />
+          <folding>
+            <element signature="e#32767#32768#0" expanded="true" />
+            <element signature="e#32813#32814#0" expanded="true" />
+            <element signature="e#32929#32930#0" expanded="true" />
+            <element signature="e#32969#32970#0" expanded="true" />
+            <element signature="e#33115#33116#0" expanded="true" />
+            <element signature="e#33159#33160#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../SPADE-master/src/spade/core/Kernel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4977">
+          <caret line="302" column="18" selection-start-line="302" selection-start-column="8" selection-end-line="302" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ids/core/AbstractStorage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4620">
+          <caret line="234" column="17" selection-start-line="234" selection-start-column="17" selection-end-line="234" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ids/utility/LogManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ids/Dot2Redis.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="770">
+          <caret line="87" column="19" selection-start-line="87" selection-start-column="19" selection-end-line="87" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ids/core/Graph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="116" column="46" selection-start-line="116" selection-start-column="46" selection-end-line="116" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../SPADE-master/src/spade/query/scaffold/BerkeleyDB.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../SPADE-master/src/spade/query/scaffold/LevelDB.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ids/storage/Scaffold.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1078">
+          <caret line="69" column="22" selection-start-line="69" selection-start-column="22" selection-end-line="69" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../SPADE-master/src/spade/query/scaffold/PostgreSQL.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3934">
+          <caret line="141" column="28" selection-start-line="141" selection-start-column="16" selection-end-line="141" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../SPADE-master/src/spade/query/scaffold/Redis.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1792" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ids/core/Detect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="98" selection-start-line="98" selection-end-line="98" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ids/storage/Redis.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2164#2165#0" expanded="true" />
+            <element signature="e#2190#2191#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Graduate</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
