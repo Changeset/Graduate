@@ -1,0 +1,130 @@
+package ids.storage;
+
+import ids.core.Edge;
+import ids.core.Graph;
+import ids.core.Vertex;
+
+import java.util.Date;
+import java.util.List;
+import java.util.Map;
+import java.util.Set;
+
+/**
+ * @ Author: Xuelong Liao
+ * @ Description:
+ * @ Date: created in 10:56 2019/1/18
+ * @ ModifiedBy:
+ */
+public abstract class Scaffold {
+    protected static final String PARENTS = "parents";
+    protected static final String CHILDREN = "children";
+    protected String directoryPath;
+
+    public static int GLOBAL_TX_SIZE = 1000;
+    protected static int globalTxCount = 0;
+    protected int MAX_WAIT_TIME_BEFORE_FLUSH = 15000; // ms
+    protected Date lastFlushTime;
+
+    public void setGLOBAL_TX_SIZE(int globalTxSize)
+    {
+        GLOBAL_TX_SIZE = globalTxSize;
+    }
+
+    /**
+     * This method is invoked by the kernel to initialize the storage.
+     *
+     * @param arguments The directory path of the scaffold storage.
+     * @return True if the storage was initialized successfully.
+     */
+    public abstract boolean initialize(String arguments);
+
+    protected abstract void globalTxCheckin(boolean forcedFlush);
+
+    /**
+     * This method is invoked by the AbstractStorage to shut down the storage.
+     *
+     * @return True if scaffold was shut down successfully.
+     */
+    public abstract boolean shutdown();
+
+    public abstract Set<String> getChildren(String parentHash);
+
+    public abstract Set<String> getParents(String childHash);
+
+    public abstract Set<String> getNeighbors(String hash);
+
+    public abstract Map<String, Set<String>> getLineage(String hash, String direction, int maxDepth);
+
+    public abstract Map<String, Set<String>> getPaths(String source_hash, String destination_hash, int maxLength);
+
+    /**
+     * This function inserts hashes of the end vertices of given edge
+     * into the scaffold storage.
+     *
+     * @param incomingEdge edge whose end points to insert into the storage
+     * @return returns true if the insertion is successful. Insertion is considered
+     * not successful if the vertex is already present in the storage.
+     */
+    public abstract boolean insertEntry(Edge incomingEdge);
+
+    public abstract Graph queryManager(Map<String, List<String>> params);
+
+    public static void main(String args[])
+    {
+        // testing code
+        Scaffold scaffold = new Redis();
+        scaffold.initialize("");
+
+        Vertex v1 = new Vertex();
+        v1.addAnnotation("name", "v1");
+
+        Vertex v2 = new Vertex();
+        v2.addAnnotation("name", "v2");
+
+        Vertex v3 = new Vertex();
+        v3.addAnnotation("name", "v3");
+
+        Vertex v4 = new Vertex();
+        v4.addAnnotation("name", "v4");
+
+        Edge e1 = new Edge(v1, v2);
+        e1.addAnnotation("name", "e1");
+
+        Edge e2 = new Edge(v2, v3);
+        e2.addAnnotation("name", "e2");
+
+        Edge e3 = new Edge(v1, v3);
+        e3.addAnnotation("name", "e3");
+
+        Edge e4 = new Edge(v2, v4);
+        v4.addAnnotation("name", "e4");
+
+        Edge e5 = new Edge(v1, v4);
+        e5.addAnnotation("name", "e5");
+
+        Edge e6 = new Edge(v3, v2);
+        e6.addAnnotation("name", "e6");
+
+        Edge e7 = new Edge(v3, v4);
+        e7.addAnnotation("name", "e7");
+
+        Edge e8 = new Edge(v4, v2);
+        e8.addAnnotation("name", "e8");
+
+        scaffold.insertEntry(e1);
+        scaffold.insertEntry(e2);
+        scaffold.insertEntry(e3);
+        scaffold.insertEntry(e4);
+        scaffold.insertEntry(e5);
+        scaffold.insertEntry(e6);
+        scaffold.insertEntry(e7);
+        scaffold.insertEntry(e8);
+
+        System.out.println("v1: " + v1.bigHashCode());
+        System.out.println("v2: " + v2.bigHashCode());
+        System.out.println("v3: " + v3.bigHashCode());
+        System.out.println("v4: " + v4.bigHashCode());
+
+        System.out.println(scaffold.getPaths(v1.bigHashCode(), v2.bigHashCode(), 1));
+    }
+}
