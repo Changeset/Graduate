@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="babd30b6-4a71-4059-b2db-29dc552ceaf8" name="Default" comment="add redis">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="babd30b6-4a71-4059-b2db-29dc552ceaf8" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -116,8 +114,8 @@
           <file leaf-file-name="Redis.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/ids/storage/Redis.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="126">
-                  <caret line="66" column="60" selection-start-line="66" selection-start-column="60" selection-end-line="66" selection-end-column="60" />
+                <state relative-caret-position="294">
+                  <caret line="76" column="19" lean-forward="true" selection-start-line="76" selection-start-column="19" selection-end-line="76" selection-end-column="19" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -141,8 +139,8 @@
           <file leaf-file-name="Detect.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/ids/core/Detect.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="447">
-                  <caret line="113" selection-start-line="113" selection-end-line="113" />
+                <state relative-caret-position="489">
+                  <caret line="115" lean-forward="true" selection-start-line="115" selection-end-line="115" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -249,6 +247,7 @@
     </replaceStrings>
   </component>
   <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
@@ -278,8 +277,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="558" />
-    <option name="y" value="487" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
@@ -354,7 +353,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -410,7 +409,7 @@
       <workItem from="1548225187077" duration="7898000" />
       <workItem from="1548292109521" duration="1215000" />
       <workItem from="1548313489873" duration="3636000" />
-      <workItem from="1548317693685" duration="264000" />
+      <workItem from="1548317693685" duration="652000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1548315484274</created>
@@ -433,11 +432,39 @@
       <option name="project" value="LOCAL" />
       <updated>1548317766179</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add redis">
+      <created>1548317965770</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1548317965770</updated>
+    </task>
+    <task id="LOCAL-00005" summary="update">
+      <created>1548318024993</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1548318024993</updated>
+    </task>
+    <task id="LOCAL-00006" summary="update">
+      <created>1548318248344</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1548318248344</updated>
+    </task>
+    <task id="LOCAL-00007" summary="update">
+      <created>1548318284463</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1548318284463</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41437000" />
+    <option name="totallyTimeSpent" value="41825000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -514,9 +541,9 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="update" />
     <MESSAGE value="add redis" />
-    <option name="LAST_COMMIT_MESSAGE" value="add redis" />
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/../../SPADE-master/src/spade/core/AbstractVertex.java">
@@ -943,20 +970,20 @@
     <entry file="file://$PROJECT_DIR$/../../SPADE-master/src/spade/query/scaffold/Redis.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ids/core/Detect.java">
+    <entry file="file://$PROJECT_DIR$/src/ids/storage/Redis.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="447">
-          <caret line="113" selection-start-line="113" selection-end-line="113" />
+        <state relative-caret-position="294">
+          <caret line="76" column="19" lean-forward="true" selection-start-line="76" selection-start-column="19" selection-end-line="76" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ids/storage/Redis.java">
+    <entry file="file://$PROJECT_DIR$/src/ids/core/Detect.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="66" column="60" selection-start-line="66" selection-start-column="60" selection-end-line="66" selection-end-column="60" />
+        <state relative-caret-position="489">
+          <caret line="115" lean-forward="true" selection-start-line="115" selection-end-line="115" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
