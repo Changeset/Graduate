@@ -1,14 +1,17 @@
 package ids.core;
 
+import ids.storage.Redis;
 import redis.clients.jedis.Jedis;
 
-import java.io.BufferedReader;
-import java.io.File;
-import java.io.FileReader;
-import java.util.HashMap;
-import java.util.Map;
+import java.io.*;
+import java.util.*;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+
+import static com.sun.org.apache.xalan.internal.xslt.EnvironmentCheck.WARNING;
+import static ids.core.AbstractStorage.DIRECTION_ANCESTORS;
 
 /**
  * @ Author: Xuelong Liao
@@ -21,6 +24,8 @@ public class Detect {
         System.setProperty("java.util.logging.manager", ids.utility.LogManager.class.getName());
         System.setProperty("java.util.logging.SimpleFormatter.format", "%1$tb %1$td, %1$tY %1$tl:%1$tM:%1$tS %1$Tp %2$s %4$s: %5$s%6$s%n");
     }
+
+    private static final Logger logger = Logger.getLogger(Detect.class.getName());
 
     private static final Pattern nodePattern = Pattern.compile("\"(.*)\" \\[label=\"(.*)\" shape=\"(\\w*)\" fillcolor=\"(\\w*)\"", Pattern.DOTALL);
     private static final Pattern edgePattern = Pattern.compile("\"(.*)\" -> \"(.*)\" \\[label=\"(.*)\" color=\"(\\w*)\"", Pattern.DOTALL);
@@ -52,9 +57,10 @@ public class Detect {
      */
     private static final String LOG_START_TIME_PATTERN = "MM.dd.yyyy-H.mm.ss";
 
-    private static Jedis hashToName;
+    private static final double threshold = 0.7;
+    private static int maxDepth = 9999;
 
-    public static Graph importGraph(String path) {
+    public static Graph importGraph(String path, Redis redisScaffold) {
         if (path == null) return null;
         File file = new File(path);
         if (!file.exists()) {
@@ -68,16 +74,17 @@ public class Detect {
             while (true) {
                 line = eventReader.readLine();
                 if (line == null) break;
-                processImportLine(line, result, vertexMap);
+                processImportLine(line, result, vertexMap, redisScaffold);
             }
             eventReader.close();
         } catch (Exception e) {
+            Logger.getLogger(Detect.class.getName()).log(Level.WARNING, "File read unsuccessful!", e);
             e.printStackTrace();
         }
         result.commitIndex();
         return result;
     }
-    public static void processImportLine(String line, Graph graph, Map<String, Vertex> vertexMap) {
+    public static void processImportLine(String line, Graph graph, Map<String, Vertex> vertexMap, Redis redisScaffold) {
         try {
             Matcher nodeMatcher = nodePattern.matcher(line);
             Matcher edgeMatcher = edgePattern.matcher(line);
@@ -95,30 +102,93 @@ public class Detect {
                     if (key_value.length == 2) {
                         vertex.addAnnotation(key_value[0], key_value[1]);
                         if (key_value[0].equals("name")) {
-                            hashToName.set(key, key_value[1]);
+                            redisScaffold.insertHashName(key, key_value[1]);
                         }
                     }
                 }
-
+                graph.putVertex(vertex);
+                vertexMap.put(key, vertex);
             } else if (edgeMatcher.find()) {
                 /*
                 * 存储父节点和子节点的关系
                  */
-                String key = edgeMatcher.group(1);
+                String childkey = edgeMatcher.group(1);
+                String dstkey = edgeMatcher.group(2);
+                String label = edgeMatcher.group(3);
+                Vertex childVertex = vertexMap.get(childkey);
+                Vertex parentVertex = vertexMap.get(dstkey);
+                Edge edge = new Edge(childVertex, parentVertex);
+                if ((label != null) && (label.length() > 2)) {
+                    label = label.substring(1, label.length() - 1);
+                    String[] pairs = label.split("\\\\n");
+                    for (String pair : pairs) {
+                        String key_value[] = pair.split(":", 2);
+                        if (key_value.length == 2) {
+                            edge.addAnnotation(key_value[0], key_value[1]);
+                            redisScaffold.insertEntry(edge);
+                            if (redisScaffold.insertRule(key_value[0], key_value[1])) {
+                                logger.log(Level.SEVERE, "rules " + key_value[0] + " -> " + key_value[1] + " added.");
+                            }
+                        }
+                    }
+                }
+                graph.putEdge(edge);
+            }
+        } catch (Exception e) {
+            logger.log(Level.SEVERE, null, e);
+        }
+    }
+
+    public static List<Boolean> detectGraph(Graph graph, Redis redisScaffold, int maxDepth) {
+        List<String> rootVertexHashList = redisScaffold.getRootVertexList();
+        List<Boolean> resultList = new LinkedList<>();
+        int depi = 0;
+        long edgeCount = 0;
+        for (String rootVertexHash : rootVertexHashList) {
+            Graph detectGraph = new Graph();
+            detectGraph = graph.getLineage(rootVertexHash, "ancestors", maxDepth);
+            Set<Edge> detectEdgeSet = detectGraph.edgeSet();
+            int detectEdgeCount = detectGraph.edgeSet().size();
+            int detectDepi = 0;
+            edgeCount += detectEdgeCount;
+            detectGraph.setEdgeCount(detectEdgeCount);
+            for (Edge edge : detectEdgeSet) {
+                detectDepi += onlineDetect(edge, redisScaffold);
+            }
+            depi += detectDepi;
+            double result = (double)detectDepi / (double)detectEdgeCount;
+            if (result >= threshold) resultList.add(false);
+            else resultList.add(true);
+        }
+//        double result = (double)depi / (double)edgeCount;
+        redisScaffold.shutdown();
+        return resultList;
+    }
+
+    public static int onlineDetect(Edge detectEdge, Redis redisScaffold) {
+        int depi = 0;
+        String childVertex = detectEdge.getChildVertex().bigHashCode();
+        String parentVertex = detectEdge.getParentVertex().bigHashCode();
+        if(redisScaffold.isRule(childVertex, parentVertex)) depi++;
+        return depi;
+    }
+    public static void main(String[] args) {
+        if (args.length != 2) {
+            System.out.println("input parameters error!");
+            return;
+        }
+        Detect detectInstance = new Detect();
+        Redis redisScaffold = new Redis();
+        redisScaffold.initialize("");
+        Graph provenanceGraph = detectInstance.importGraph(args[1], redisScaffold);
+        List<Boolean> detectResult = detectGraph(provenanceGraph, redisScaffold, maxDepth);
+        for (boolean res : detectResult) {
+            if (res) {
+                Logger.getLogger(Detect.class.getName()).log(Level.WARNING, "Intrusion detected!");
+                System.out.println("Attack detected!");
+            } else {
+                Logger.getLogger(Detect.class.getName()).log(Level.WARNING, "No intrusion detected.");
             }
         }
     }
-    public static void main(String[] args) {
-        hashToName = new Jedis("127.0.0.1", 6379);
-        hashToName.auth("root");
-        Graph graph = Detect.importGraph(args[1]);
-
-    }
-
 }
-
-
-
-
-
-

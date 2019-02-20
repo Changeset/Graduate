@@ -65,6 +65,8 @@ public abstract class Scaffold {
      * @return returns true if the insertion is successful. Insertion is considered
      * not successful if the vertex is already present in the storage.
      */
+    public abstract boolean insertHashName(String hash, String name);
+
     public abstract boolean insertEntry(Edge incomingEdge);
 
     public abstract Graph queryManager(Map<String, List<String>> params);

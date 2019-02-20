@@ -49,6 +49,10 @@ public class Graph extends AbstractStorage implements Serializable {
     private Map<Vertex, Integer> networkMap = new HashMap<>();
     private int serial_number = 1;
 
+    // 溯源图的可疑度
+    private int depi = 0;
+    protected long edgeCount = 0;
+
     /**
      * For query results spanning multiple hosts, this is used to indicate
      * whether the network boundaries have been properly transformed.
@@ -603,6 +607,14 @@ public class Graph extends AbstractStorage implements Serializable {
     public String getSignature() { return signature; }
 
     public void setSignature(String signature) { this.signature = signature; }
+
+    public void setDepi(int depi) { this.depi = depi; }
+
+    public int getDepi() { return depi; }
+
+    public void setEdgeCount(long count) { this.edgeCount = count; }
+
+    public long getEdgeCount() { return edgeCount; }
 
     public String toString() {
         return "Graph{" +
