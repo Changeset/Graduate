@@ -5,8 +5,7 @@ import redis.clients.jedis.Jedis;
 
 import java.io.*;
 import java.util.*;
-import java.util.logging.Level;
-import java.util.logging.Logger;
+import java.util.logging.*;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -173,14 +172,30 @@ public class Detect {
         return depi;
     }
     public static void main(String[] args) {
-        if (args.length != 2) {
+        System.out.println(args[0]);
+        if (args.length != 1) {
             System.out.println("input parameters error!");
             return;
         }
+//        try {
+//            String logFilename = System.getProperty("ids.log");
+//            if (logFilename == null) {
+//                new File(LOG_PATH).mkdirs();
+//                Date currentTime = new java.util.Date(System.currentTimeMillis());
+//                String logStartTime = new java.text.SimpleDateFormat(LOG_START_TIME_PATTERN).format(currentTime);
+//                logFilename = LOG_PATH + FILE_SEPARATOR + LOG_PREFIX + logStartTime + ".log";
+//            }
+//            final Handler logFileHandler = new FileHandler(logFilename);
+//            logFileHandler.setFormatter(new SimpleFormatter());
+//            logFileHandler.setLevel(Level.parse(Settings.getProperty("logger_level")));
+//            Logger.getLogger("").addHandler(logFileHandler);
+//        } catch (IOException | SecurityException exception) {
+//            System.err.println("Error initializing exception logger");
+//        }
         Detect detectInstance = new Detect();
         Redis redisScaffold = new Redis();
         redisScaffold.initialize("");
-        Graph provenanceGraph = detectInstance.importGraph(args[1], redisScaffold);
+        Graph provenanceGraph = detectInstance.importGraph(args[0], redisScaffold);
         List<Boolean> detectResult = detectGraph(provenanceGraph, redisScaffold, maxDepth);
         for (boolean res : detectResult) {
             if (res) {

@@ -1,0 +1,70 @@
+# ids - intrusion detection based on SPADE
+
+JAVAC= javac
+
+JAR=jar
+JAVAC_CP = build:lib/*
+JAVAC_OPTIONS = -Xlint:none -proc:none
+
+
+# System and architecture-specific configuration
+
+OS_NAME = $(shell uname)
+OS_ARCH = $(shell uname -m)
+ifeq ($(OS_NAME), Linux)
+	OS_CONFIG_PATH = /usr/lib/pkgconfig
+endif
+
+.PHONY: build prepare-dirs core storage utility
+
+all: 	build
+
+help:
+	@echo 'Usage:'
+	@echo '  	make                	- to compile the code'
+	@echo '  	make clean          	- to remove the compiled code'
+	@echo ' '
+
+# ---------- Building ids ----------
+.SECONDEXPANSION:
+
+build: | prepare-dirs
+build: build-java lib/ids.jar
+build-java: core storage utility
+
+.SUFFIXES: .class .java
+
+prepare-dirs:
+	mkdir -p build
+
+build/%.class: src/%.java
+	$(JAVAC) $(JAVAC_OPTIONS) -cp '$(JAVAC_CP)' -sourcepath src -d build %<
+
+core:
+	$(JAVAC) $(JAVAC_OPTIONS) -cp '$(JAVAC_CP)' -sourcepath src -d build src/ids/core/*.java
+	@echo "--- Built Core ---"
+storage:
+	$(JAVAC) $(JAVAC_OPTIONS) -cp '$(JAVAC_CP)' -sourcepath src -d build src/ids/storage/*.java
+	@echo "--- Built Storage ---"
+utility:
+	$(JAVAC) $(JAVAC_OPTIONS) -cp '$(JAVAC_CP)' -sourcepath src -d build src/ids/utility/*.java
+	@echo "--- Built Utility ---"
+
+lib/ids.jar: build-java
+	$(JAR) cvf lib/ids.jar -C build .
+
+# ---------- Removing files ----------
+# Remove Java classes and native libraries, executables that we compiled.
+clean:
+	@echo 'Removing Java classes, executables...'
+	@rm -rf build
+	@rm -rf lib/ids.jar
+	@rm -rf log
+	@rm -rf tmp
+
+DESTDIR = @prefix@
+install:
+	test -d $(DESTDIR) || mkdir $(DESTDIR)
+	cp -R bin $(DESTDIR)
+	cp -R lib $(DESTDIR)
+	cp -R cfg $(DESTDIR)
