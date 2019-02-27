@@ -49,7 +49,7 @@ public class Vertex implements Serializable {
      * @param value The annotation value.
      */
     public final void addAnnotation(String key, String value) {
-        if (key != null && key.isEmpty()) {
+        if (key != null && !key.isEmpty()) {
             if (value == null) {
                 value = "";
             }

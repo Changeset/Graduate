@@ -117,19 +117,9 @@ public class Detect {
                 Vertex childVertex = vertexMap.get(childkey);
                 Vertex parentVertex = vertexMap.get(dstkey);
                 Edge edge = new Edge(childVertex, parentVertex);
-                if ((label != null) && (label.length() > 2)) {
-                    label = label.substring(1, label.length() - 1);
-                    String[] pairs = label.split("\\\\n");
-                    for (String pair : pairs) {
-                        String key_value[] = pair.split(":", 2);
-                        if (key_value.length == 2) {
-                            edge.addAnnotation(key_value[0], key_value[1]);
-                            redisScaffold.insertEntry(edge);
-                            if (redisScaffold.insertRule(key_value[0], key_value[1])) {
-                                logger.log(Level.SEVERE, "rules " + key_value[0] + " -> " + key_value[1] + " added.");
-                            }
-                        }
-                    }
+                redisScaffold.insertEntry(edge);
+                if (redisScaffold.insertRule(childkey, dstkey)) {
+                    logger.log(Level.SEVERE, "rules " + childVertex + " -> " + parentVertex + " added.");
                 }
                 graph.putEdge(edge);
             }

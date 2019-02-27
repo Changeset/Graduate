@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/src/ids/core/Detect.java" line="166" />
+    <bookmark url="file://$PROJECT_DIR$/src/ids/core/Detect.java" line="156" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="babd30b6-4a71-4059-b2db-29dc552ceaf8" name="Default" comment="update dependencies.">
-      <change afterPath="$PROJECT_DIR$/Makefile.in" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/detect.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cfg/ids.core.AbstractStorage.config" beforeDir="false" afterPath="$PROJECT_DIR$/cfg/ids.core.AbstractStorage.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cfg/ids.core.Detect.config" beforeDir="false" afterPath="$PROJECT_DIR$/cfg/ids.core.Detect.config" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ids/core/Detect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ids/core/Detect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ids/core/Vertex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ids/core/Vertex.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,13 +18,13 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.62068963">
+    <splitter split-orientation="horizontal" split-proportion="0.84217507">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/ids/core/AbstractStorage.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="357">
+                <state relative-caret-position="413">
                   <caret line="27" column="31" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
                   <folding>
                     <element signature="imports" expanded="true" />
@@ -34,9 +34,27 @@
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/cfg/ids.core.Detect.config">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="42">
+                  <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/cfg/ids.core.AbstractStorage.config">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="42">
+                  <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/ids/storage/Redis.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="231">
+                <state relative-caret-position="420">
                   <caret line="20" column="41" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="41" />
                   <folding>
                     <element signature="imports" expanded="true" />
@@ -46,15 +64,6 @@
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Makefile.in">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1407">
-                  <caret line="67" column="23" selection-start-line="67" selection-start-column="16" selection-end-line="67" selection-end-column="23" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/bin/detect.sh">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="420">
@@ -64,10 +73,10 @@
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/ids/storage/ScaffoldFactory.java">
+            <entry file="file://$PROJECT_DIR$/src/ids/core/Detect.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="294">
-                  <caret line="15" column="41" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
+                <state relative-caret-position="-63">
+                  <caret line="118" column="55" lean-forward="true" selection-start-line="118" selection-start-column="55" selection-end-line="118" selection-end-column="55" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -75,11 +84,27 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/ids/core/Detect.java">
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/ids/core/Vertex.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="294">
-                  <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+                <state relative-caret-position="-1543">
+                  <caret line="51" column="28" selection-start-line="51" selection-start-column="28" selection-end-line="51" selection-end-column="28" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                    <element signature="e#2536#2537#0" expanded="true" />
+                    <element signature="e#2594#2595#0" expanded="true" />
+                    <element signature="e#2761#2762#0" expanded="true" />
+                    <element signature="e#2816#2817#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/ids/core/Graph.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-3489">
+                  <caret line="419" column="5" selection-start-line="419" selection-start-column="5" selection-end-line="419" selection-end-column="5" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -90,20 +115,11 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/ids/storage/Scaffold.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1218">
+                <state relative-caret-position="1145">
                   <caret line="68" selection-start-line="68" selection-end-line="68" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="jar://$PROJECT_DIR$/../../SPADE-master/lib/jedis-2.9.0.jar!/redis/clients/jedis/JedisPool.class">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="126">
-                  <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
                 </state>
               </provider>
             </entry>
@@ -160,7 +176,7 @@
             <entry file="file://$PROJECT_DIR$/src/ids/core/Detect.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="165">
-                  <caret line="163" column="26" selection-start-line="163" selection-start-column="26" selection-end-line="163" selection-end-column="26" />
+                  <caret line="153" column="26" selection-start-line="153" selection-start-column="26" selection-end-line="153" selection-end-column="26" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -270,21 +286,22 @@
         <option value="$PROJECT_DIR$/src/ids/utility/LogManager.java" />
         <option value="$PROJECT_DIR$/src/ids/storage/ScaffoldFactory.java" />
         <option value="$PROJECT_DIR$/src/ids/core/Edge.java" />
-        <option value="$PROJECT_DIR$/src/ids/core/Vertex.java" />
         <option value="$PROJECT_DIR$/../../SPADE-master/src/spade/core/AbstractStorage.java" />
         <option value="$PROJECT_DIR$/src/ids/core/AbstractStorage.java" />
         <option value="$PROJECT_DIR$/src/ids/storage/Scaffold.java" />
         <option value="$PROJECT_DIR$/src/ids/core/Graph.java" />
         <option value="$PROJECT_DIR$/src/ids/storage/Redis.java" />
         <option value="$PROJECT_DIR$/Makefile.in" />
-        <option value="$PROJECT_DIR$/src/ids/core/Detect.java" />
         <option value="$PROJECT_DIR$/bin/detect.sh" />
+        <option value="$PROJECT_DIR$/cfg/ids.core.AbstractStorage.config" />
+        <option value="$PROJECT_DIR$/cfg/ids.core.Detect.config" />
+        <option value="$PROJECT_DIR$/src/ids/core/Detect.java" />
+        <option value="$PROJECT_DIR$/src/ids/core/Vertex.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+    <option name="x" value="137" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
@@ -306,6 +323,11 @@
               <item name="Graduate" type="b2602c69:ProjectViewProjectNode" />
               <item name="Graduate" type="462c0819:PsiDirectoryNode" />
               <item name="bin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Graduate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Graduate" type="462c0819:PsiDirectoryNode" />
+              <item name="cfg" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Graduate" type="b2602c69:ProjectViewProjectNode" />
@@ -347,7 +369,7 @@
     <property name="SearchEverywhereHistoryKey" value="split ver&#9;ACTION&#9;SplitVertically" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551173154941" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551253138417" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../SPADE-master/src/spade/core/Kernel.java" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -437,7 +459,7 @@
       <workItem from="1550817859744" duration="5604000" />
       <workItem from="1551055899142" duration="11629000" />
       <workItem from="1551163407673" duration="8823000" />
-      <workItem from="1551248066159" duration="663000" />
+      <workItem from="1551248066159" duration="3497000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1548315484274</created>
@@ -555,7 +577,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="125274000" />
+    <option name="totallyTimeSpent" value="128108000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -586,7 +608,7 @@
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49946696" weight="0.32824427" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.7361407" weight="0.3275488" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.49626866" side_tool="true" weight="0.26030368" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.49626866" side_tool="true" weight="0.25921908" />
       <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.50373137" weight="0.3264642" />
       <window_info anchor="bottom" id="Statistic" order="11" weight="0.3286334" />
       <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
@@ -729,50 +751,6 @@
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ids/core/Vertex.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="28" column="16" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2536#2537#0" expanded="true" />
-            <element signature="e#2594#2595#0" expanded="true" />
-            <element signature="e#2761#2762#0" expanded="true" />
-            <element signature="e#2816#2817#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ids/core/Graph.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8211">
-          <caret line="419" column="5" selection-start-line="419" selection-start-column="5" selection-end-line="419" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ids/core/AbstractStorage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="27" column="31" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ids/storage/Redis.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="20" column="41" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Makefile.in">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1407">
@@ -784,16 +762,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="294">
           <caret line="15" column="41" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ids/storage/Scaffold.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1218">
-          <caret line="68" selection-start-line="68" selection-end-line="68" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -874,20 +842,88 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ids/core/Detect.java">
+    <entry file="file://$PROJECT_DIR$/bin/detect.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+        <state relative-caret-position="420">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ids/storage/Redis.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="20" column="41" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bin/detect.sh">
+    <entry file="file://$PROJECT_DIR$/src/ids/storage/Scaffold.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        <state relative-caret-position="1145">
+          <caret line="68" selection-start-line="68" selection-end-line="68" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cfg/ids.core.Detect.config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cfg/ids.core.AbstractStorage.config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ids/core/Graph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3489">
+          <caret line="419" column="5" selection-start-line="419" selection-start-column="5" selection-end-line="419" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ids/core/AbstractStorage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="413">
+          <caret line="27" column="31" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ids/core/Detect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-63">
+          <caret line="118" column="55" lean-forward="true" selection-start-line="118" selection-start-column="55" selection-end-line="118" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ids/core/Vertex.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1543">
+          <caret line="51" column="28" selection-start-line="51" selection-start-column="28" selection-end-line="51" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2536#2537#0" expanded="true" />
+            <element signature="e#2594#2595#0" expanded="true" />
+            <element signature="e#2761#2762#0" expanded="true" />
+            <element signature="e#2816#2817#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
